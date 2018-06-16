@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import
+import leftWindow from './components/leftwindow/leftWindow';
+import rightWindow from './components/rightwindow/rightWindow';
 
 class App extends Component {
   render() {
