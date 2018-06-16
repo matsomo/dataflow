@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
+import LeftControlPanel from './components/leftwindow/leftControlPanel';
+import LeftOutput from './components/leftwindow/leftOutput';
 import './App.css';
 
-import leftWindow from './components/leftwindow/leftWindow';
-import rightWindow from './components/rightwindow/rightWindow';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-
+      <div>
+        <h3>app</h3>
+        <div>
+          <LeftControlPanel />
+          <LeftOutput />
+        </div>
       </div>
     );
   }
